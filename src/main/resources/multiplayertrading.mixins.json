@@ -4,6 +4,7 @@
   "package": "net.dc.multiplayertrading.mixins",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "MerchantEntityMixin"
   ],
   "client": [
   ],
