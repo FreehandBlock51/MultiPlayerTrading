@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "multiplayertrading",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Multi-Player Trading",
+  "description": "Allows multiple players to trade with a single merchant",
   "authors": [
-    "Me!"
+    "FreehandBlock51"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/FreehandBlock51/MultiPlayerTrading",
+    "sources": "https://github.com/FreehandBlock51/MultiPlayerTrading"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/multiplayertrading/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.dc.multiplayertrading.FabricMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "multiplayertrading.mixins.json"
   ],
 
   "depends": {
@@ -33,6 +33,5 @@
     "java": ">=17"
   },
   "suggests": {
-    "another-mod": "*"
   }
 }

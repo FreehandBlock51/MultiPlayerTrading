@@ -1,8 +1,6 @@
-# Fabric Example Mod
+# Multi Player Trading
 
-## Setup
-
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+A mod allowing multiple players to trade with a single merchant
 
 ## License
 
